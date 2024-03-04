@@ -1,0 +1,6 @@
+service : {
+  QrCode: (nat) -> (text);
+  addProductToSeller: (text, text, nat, text) -> (text);
+  buyProduct: (text, text, nat, text) -> (text);
+  removeProduct: (text) -> (text);
+}
